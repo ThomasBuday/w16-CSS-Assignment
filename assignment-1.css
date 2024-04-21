@@ -1,0 +1,75 @@
+/* Style the menus using
+    flex,
+    padding,
+    background-color,
+    list-style,
+    text-decoration,
+    justify-content,
+    align-items
+ */
+
+/* -Main settings- */
+
+main{
+    height: 540px;
+    background-color: hsl(0, 0%, 90%);
+    margin: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main h1{
+    margin: 0%;
+    text-align: left;
+    padding: 25px 15px;    
+    font-family: Roboto;
+}
+
+main p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+}
+
+main:not(h1){
+    min-height:70lvh
+}
+
+aside{
+    width: 20%;
+    min-height: 300px;
+    border:1px solid;
+    border-radius: 25px;
+    padding: 5px 10px;
+    float: left;
+}
+
+aside:hover{
+    box-shadow: 5px 2px 15px;
+}
+
+section{
+    width: 50%;
+    min-height: 300px;
+    border:1px solid;
+    border-radius: 25px;
+    padding: 5px 10px;
+    float: left;
+}
+
+section:hover{
+    box-shadow: 5px 2px 15px;
+}
+
+article{
+    width: 30%;
+    min-height: 300px;
+    border:1px solid;
+    border-radius: 25px;
+    padding: 5px 10px;
+    float: left;
+}
+
+article:hover{
+    box-shadow: 5px 2px 15px;
+}
+

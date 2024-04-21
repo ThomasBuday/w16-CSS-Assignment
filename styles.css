@@ -1,0 +1,115 @@
+/* -Global settings- */
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    src: url(Fonts/Roboto-Medium.ttf);
+    font-family: Roboto;
+}
+
+body{
+    margin: 0px;
+    display: block;
+}
+
+li{
+    list-style-type: none;   
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.site-header{
+    background-color: rgb(95, 95, 95);
+}
+
+.site-header a:hover{
+    background-color: brown;
+}
+
+/* -Header settings- */
+
+header{
+    margin: 0%;
+}
+
+#head-menu{
+    display: flex;
+    justify-content:space-evenly;
+    height: 52px;
+    overflow: hidden;
+}
+
+#head-menu div{
+    align-content: center;
+}
+
+#head-menu li{
+    display:inline;
+}
+
+#head-menu a{
+    color: aliceblue;
+    
+}
+
+#site-brand span{
+    background-color: brown;
+    cursor:default;
+    font-family: Roboto;
+    font-size: 40px;
+    user-select: none;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#msgBox{
+    visibility: hidden;
+    display: flexbox;
+    border: 2px solid black;
+    background-color: beige;
+    font-size: 25px;
+    padding: 50px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+/* -Footer settings- */
+
+footer div{
+    display: block;
+    margin: 0%;
+    clear: both;
+    min-height: 10cap;
+}
+
+#sub-menu{
+    align-content: center;
+}
+
+#sub-menu a{
+    font-size: 20px;
+    font-weight: 800;
+    color: hsl(0, 0%, 0%);
+}
+
+#sub-menu a:hover{
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    aside, section, article{
+        width: 100%;
+    }
+    body{
+        min-width: 900px;
+    }
+}

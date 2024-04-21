@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit your data</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            font-family: Roboto;
+            
+            align-items: center;
+            padding: 0px 15px;
+        }
+        #inputFields{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            position: relative;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 15px;
+        }
+        form{
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div><h1>We need your credentials</h1></div>
+    <div id="inputFields">
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            
+            <label for="fname">Credit Card number:</label><br>
+            <input type="text" id="cCNr" name="cCNr"><br>
+            <label for="lname">Valid:</label><br>
+            <input type="text" id="valid" name="valid"><br><br>
+            <label for="lname">CVV:</label><br>
+            <input type="text" id="CVV" name="CVV"><br><br>
+            <input type="submit" style="border-radius: 5px;" value="Submit">
+          </form>
+    </div>
+    <br>
+    <button onclick="history.back()" style="border-radius: 5px;">Go Back</button>
+</body>
+</html>

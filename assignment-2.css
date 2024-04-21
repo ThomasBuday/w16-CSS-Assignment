@@ -1,0 +1,63 @@
+/* Style the card using
+    position,
+    padding,
+    margin,
+    line-height,
+    border
+ */
+
+/* -Main settings- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 90%);
+    margin: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main h1{
+    margin: 0%;
+    height: auto;
+    text-align: left;
+    padding: 25px 15px;    
+    font-family: Roboto;
+}
+
+main > div{
+    background-image: url("Pictures/THE\ Headphone.jpg");
+    background-repeat: no-repeat;
+    background-size: 850px 550px ;
+    position: relative;
+    max-width: 50%;
+    height:452px;
+    left: 25%;
+    
+
+    
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+#saleCont:not(#saleTag){
+    color: aliceblue;
+    padding: 0 15px;
+    font-size: 25px;
+}
+
+#saleTag{
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+#saleTag h3{
+    padding: 5px;
+    margin: 0%;
+}

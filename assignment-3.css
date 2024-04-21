@@ -1,0 +1,36 @@
+/* Style the section using
+    flex,
+    flex-direction,
+    gap,
+    margin,
+    padding,
+    background-color,
+    border-radius,
+    max-width
+ */
+
+section{
+    height: 540px;
+    background-color: hsl(0, 0%, 90%);
+    margin: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    color: black;
+    display: block;
+    padding: 20px 25px;
+    margin: 5px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+article:hover{
+    padding: 30px 25px;
+    outline: 3px solid red;
+}
+
